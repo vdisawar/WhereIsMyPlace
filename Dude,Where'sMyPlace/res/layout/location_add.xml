@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/locationTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location Name"
+        android:paddingTop="15dp"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/longitudeTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:text="longitude: " />
+
+    <TextView
+        android:id="@+id/latitudeTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:paddingBottom="50dp"
+        android:text="latitude: " />
+    
+    <Button android:id="@+id/locationPick"
+        android:onClick="locationPick"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Add Location"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

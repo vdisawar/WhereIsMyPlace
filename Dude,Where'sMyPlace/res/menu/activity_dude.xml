@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/compassMenu"
+        android:title="Compass">
+    </item>
+    <item
+        android:id="@+id/locationAddMenu"
+        android:title="Add Location">
+    </item>
+    <item
+        android:id="@+id/locationListMenu"
+        android:title="Location List">
+    </item>
+    <item
+        android:id="@+id/mapViewMenu"
+        android:title="Map View">
+    </item>
+
+</menu>

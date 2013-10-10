@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigateView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/navigateTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate To: " />
+
+    <TableRow
+        android:id="@+id/tableRowNavigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="15dp" >
+
+        <TextView
+            android:id="@+id/totalMiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Miles" />
+
+        <TextView
+            android:id="@+id/milesLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Miles Left" />
+    </TableRow>
+
+
+</RelativeLayout>
